@@ -1,0 +1,6 @@
+#! /bin/bash
+echo " Enter user name:"
+read USERNAME  # USERNAME is variables
+echo "Enter password:"
+read PWD #PWD is variables
+echo " User name is $USERNAME and password is $PWD"
