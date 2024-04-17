@@ -1,0 +1,4 @@
+#! /bin/bash
+A=Phani
+B=Suri
+echo "Hello ${A} and $B , $SHELL"

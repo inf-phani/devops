@@ -1,0 +1,8 @@
+#! /bib/bash
+#Declaring variables as Arguments
+person1=$1
+PERSON2=$2
+PERSON3=$3
+
+#Refering variables
+echo "$person1: Hi $PERSON2, How r u?, where is $PERSON3"
