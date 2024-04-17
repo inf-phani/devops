@@ -1,0 +1,11 @@
+#!/bib/bash
+echo "all variables : $@"
+echo "Number of variables passed: $#"
+echo "Script name: $0"
+echo "current working directory:$PWD"
+echo " Home directory of current user: $HOME"
+echo "Which user is running this script: $USER"
+echo "Hostname : $HOSTNAME"
+echo "Process id of current script: $$"
+sleep 30&
+echo "processid of background command:$!"
