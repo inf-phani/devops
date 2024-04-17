@@ -1,0 +1,4 @@
+#! /bin/bash
+CARS=("HONDA" "FORD" "MARUTI" "KIA")
+
+echo " My car brand is ${CARS[0]}"
