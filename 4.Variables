@@ -1,6 +1,7 @@
 #! /bin/bash
 echo " Enter user name:"
-read USERNAME  # USERNAME is variables
+read -s USERNAME  # USERNAME is variables
+# -s refers as hide the value
 echo "Enter password:"
-read PWD #PWD is variables
+read -s PWD #PWD is variables
 echo " User name is $USERNAME and password is $PWD"
